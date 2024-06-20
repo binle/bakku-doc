@@ -10,7 +10,7 @@
 
 _Return an `error` if it is failed the validation, return `correct value of data` if it passed the validation_
 
-Refer: [use asyncValidate](./doc/validate.md)
+Refer: [use asyncValidate](./samples/validate.md)
 
 ```
 asyncValidate = async <T = any>(
@@ -23,7 +23,7 @@ asyncValidate = async <T = any>(
 ### 1.2.1 asyncValidateString
 
 _Return an `error` if it is failed the validation, return `string` (as inputted data) if it passed the validation_
-Refer: [use asyncValidateString](./doc/validate-string.md)
+Refer: [use asyncValidateString](./samples/validate-string.md)
 
 ```
 asyncValidateString = async (
@@ -36,7 +36,7 @@ asyncValidateString = async (
 #### 1.2.2 asyncValidateNumber
 
 _Return an `error` if it is failed the validation, return `number` (as inputted data or converted data) if it passed the validation_
-Refer: [use asyncValidateNumber](./doc/validate-number.md)
+Refer: [use asyncValidateNumber](./samples/validate-number.md)
 
 ```
 asyncValidateNumber = async (
@@ -49,7 +49,7 @@ asyncValidateNumber = async (
 #### 1.2.3 asyncValidateInteger
 
 _Return an `error` if it is failed the validation, return `integer` (as inputted data or converted data) if it passed the validation_
-Refer: [use asyncValidateInteger](./doc/validate-integer.md)
+Refer: [use asyncValidateInteger](./samples/validate-integer.md)
 
 ```
 asyncValidateInteger = async (
@@ -63,7 +63,7 @@ asyncValidateInteger = async (
 
 Note: file type is `Express.Multer.File`
 _Return an `error` if it is failed the validation, return `file` (as inputted data) if it passed the validation_
-Refer: [use asyncValidateFile](./doc/validate-file.md)
+Refer: [use asyncValidateFile](./samples/validate-file.md)
 
 ```
 asyncValidateFile = async (
@@ -76,7 +76,7 @@ asyncValidateFile = async (
 #### 1.2.5 asyncValidateDate
 
 _Return an `error` if it is failed the validation, return `Date` (as inputted data or converted data) if it passed the validation_
-Refer: [use asyncValidateDate](./doc/validate-date.md)
+Refer: [use asyncValidateDate](./samples/validate-date.md)
 
 **Note: we convert to moment data for validation, so the format base on moment rules.**
 
@@ -91,7 +91,7 @@ asyncValidateDate = async (
 #### 1.2.6 asyncValidateBoolean
 
 _Return an `error` if it is failed the validation, return `Boolean` (as inputted data or converted data) if it passed the validation_
-Refer: [use asyncValidateBoolean](./doc/validate-boolean.md)
+Refer: [use asyncValidateBoolean](./samples/validate-boolean.md)
 
 ```
 asyncValidateBoolean = async (
@@ -104,7 +104,7 @@ asyncValidateBoolean = async (
 #### 1.2.7 asyncValidateEnum
 
 _Return an `error` if it is failed the validation, return `Enum Value` (as inputted data) if it passed the validation_
-Refer: [use asyncValidateEnum](./doc/validate-enum.md)
+Refer: [use asyncValidateEnum](./samples/validate-enum.md)
 
 ```
 asyncValidateEnum = async (
@@ -117,7 +117,7 @@ asyncValidateEnum = async (
 #### 1.2.8 asyncValidateArray
 
 _Return an `error` if it is failed the validation, return `Array` (as inputted data with corrected items ) if it passed the validation_
-Refer: [use asyncValidateArray](./doc/validate-array.md)
+Refer: [use asyncValidateArray](./samples/validate-array.md)
 
 ```
 asyncValidateArray = async <T>(
@@ -130,7 +130,7 @@ asyncValidateArray = async <T>(
 #### 1.2.9 asyncValidateObject
 
 _Return an `error` if it is failed the validation, return `Object` (as inputted data with corrected properties ) if it passed the validation_
-Refer: [use asyncValidateObject](./doc/validate-object.md)
+Refer: [use asyncValidateObject](./samples/validate-object.md)
 
 ```
 asyncValidateObject = async <T = unknown>(
